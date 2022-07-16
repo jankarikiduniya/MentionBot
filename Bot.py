@@ -9,6 +9,7 @@ from telethon import Button
 from telethon import TelegramClient, events
 from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
+from telethon.tl.types import ChannelParticipantsAdmins
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
 from pyrogram import Client, filters
@@ -30,23 +31,22 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
     await event.reply(
-        "**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ ᴀsᴀᴅ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ** 👻\n**ᴄʟɪᴄᴋ ᴏɴ** /help **ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ**\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [ʟᴏᴠᴇ](https://t.me/Give_Me_Heart) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**",
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴀʟᴇxᴀ ʜᴇʟᴘ](https://t.me/AsadSupport)┓\n┣★ ʀᴇᴘᴏ › : [ᴀʟᴇxᴀ ʀᴇᴘᴏ](https://github.com/jankarikiduniya/MentionBot)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Jankari_Ki_Duniya) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=(
             [
                 Button.url(
-                    "⚙️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️",
+                    "☀︎︎️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☀︎︎",
                     "https://t.me/Alexa_MentionBot?startgroup=true",
-                ),
-                Button.url("👥 ɢʀᴏᴜᴘ 👥︎", "https://t.me/Shayri_Music_Lovers"),
+                    ),
+            ],
+            [                    
+                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/Shayri_Music_Lovers"),
+                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/AsadSupport"),
             ],
             [
-                Button.url("📣 ᴄʜᴀɴɴᴇʟ 📣️", "https://t.me/AsadSupport"),
-                Button.url("👸 ǫᴜᴇᴇɴ 👸︎", "https://t.me/Sonali_rajputt_Queen_Of_ROCKS"),
-            ],
-            [
-                Button.url("❤️ ʙʀᴏ ❤️️", "https://t.me/HarshitSharma361"),
-                Button.url("👑 ᴋɪɴɢ 👑︎", "https://t.me/Dr_Asad_Ali"),
+                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/HarshitSharma361"),
+                Button.url("☀︎︎ ᴋɪɴɢ ☀︎︎︎", "https://t.me/Jankar_Ki_Duniya"),
             ],
         ),
     )
@@ -145,6 +145,70 @@ async def mentionall(event):
         spam_chats.remove(chat_id)
     except:
         pass
+
+
+    
+@client.on(events.NewMessage(pattern="^/admins|/admin|@admin|@admins ?(.*)"))
+async def _(event):
+    chat_id = event.chat_id
+    if event.is_private:
+        return await event.respond(
+            "sᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀᴅᴍɪɴ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ"
+        )
+
+    is_admin = False
+    try:
+        partici_ = await client(GetParticipantRequest(event.chat_id, event.sender_id))
+    except UserNotParticipantError:
+        is_admin = False
+    else:
+        if isinstance(
+            partici_.participant, (ChannelParticipantAdmin, ChannelParticipantCreator)
+        ):
+            is_admin = True
+    if not is_admin:
+        return await event.respond("ᴏɴʟʏ ᴀᴅᴍɪɴ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴs")
+
+    if event.pattern_match.group(1) and event.is_reply:
+        return await event.respond("ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ")
+    elif event.pattern_match.group(1):
+        mode = "text_on_cmd"
+        msg = event.pattern_match.group(1)
+    elif event.is_reply:
+        mode = "text_on_reply"
+        msg = await event.get_reply_message()
+        if msg == None:
+            return await event.respond(
+                "__ɪ ᴄᴀɴ'ᴛ ᴍᴇɴᴛɪᴏɴ ᴍᴇᴍʙᴇʀs ꜰᴏʀ ᴏʟᴅᴇʀ ᴍᴇssᴀɢᴇs! (ᴍᴇssᴀɢᴇs ᴡʜɪᴄʜ ᴀʀᴇ sᴇɴᴛ ʙᴇꜰᴏʀᴇ ɪ'ᴍ ᴀᴅᴅᴇᴅ ᴛᴏ ɢʀᴏᴜᴘ)__"
+            )
+    else:
+        return await event.respond(
+            "__ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs!__"
+        )
+
+    spam_chats.append(chat_id)
+    usrnum = 0
+    usrtxt = ""
+    chat = await event.get_input_chat()
+    async for x in client.iter_participants(chat, filter=ChannelParticipantsAdmins):
+        if not chat_id in spam_chats:
+            break
+        usrnum += 1
+        usrtxt += f" \n [{x.first_name}](tg://user?id={x.id})"
+        if usrnum == 5:
+            if mode == "text_on_cmd":
+                txt = f"{usrtxt}\n\n{msg}"
+                await client.send_message(chat_id, txt)
+            elif mode == "text_on_reply":
+                await msg.reply(usrtxt)
+            await asyncio.sleep(2)
+            usrnum = 0
+            usrtxt = ""
+    try:
+        spam_chats.remove(chat_id)
+    except:
+        pass
+
 
 
 @client.on(events.NewMessage(pattern="^/cancel$"))
