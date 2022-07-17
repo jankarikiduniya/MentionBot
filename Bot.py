@@ -38,9 +38,9 @@ async def start(event):
                 Button.url(
                     "☀︎︎️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☀︎︎",
                     "https://t.me/Alexa_MentionBot?startgroup=true",
-                    ),
+                ),
             ],
-            [                    
+            [
                 Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/Shayri_Music_Lovers"),
                 Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/AsadSupport"),
             ],
@@ -61,9 +61,7 @@ async def help(event):
         buttons=(
             [
                 Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/Give_Me_Heart"),
-                Button.url(
-                    "ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"
-                ),
+                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"),
             ]
         ),
     )
@@ -78,9 +76,7 @@ async def help(event):
         buttons=(
             [
                 Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/Give_Me_Heart"),
-                Button.url(
-                    "ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"
-                ),
+                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"),
             ]
         ),
     )
@@ -147,14 +143,11 @@ async def mentionall(event):
         pass
 
 
-    
 @client.on(events.NewMessage(pattern="^/admins|/admin|@admin|@admins ?(.*)"))
 async def _(event):
     chat_id = event.chat_id
     if event.is_private:
-        return await event.respond(
-            "sᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀᴅᴍɪɴ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ"
-        )
+        return await event.respond("sᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀᴅᴍɪɴ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ")
 
     is_admin = False
     try:
@@ -208,7 +201,6 @@ async def _(event):
         spam_chats.remove(chat_id)
     except:
         pass
-
 
 
 @client.on(events.NewMessage(pattern="^/cancel$"))
