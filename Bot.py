@@ -45,12 +45,7 @@ async def start(event):
                 Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/Luluwtf"),
             ],
             [
-                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/pornhubtz"),
-                Button.url
-            ],
-        ),
-    )
-
+                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/pornhubtz"), 
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
