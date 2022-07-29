@@ -13,9 +13,9 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone for using Asad Alexa, That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using Aceng Project, That is the greatest pleasure we have !
 
-## Avaiilable on Telegram as [@AsadSupport](https://t.me/Alexa_MentionBot)
+## Avaiilable on Telegram as [@aerosfams](https://t.me/Alexa_MentionBot)
 
 ## ✨ Easy To Deploy Direct In Repo✨
 
@@ -31,9 +31,8 @@ The Easiest Way To Deploy This On Heroku For Any Browser Copy Link Supported
  
  
 # ❤️ Support
-<a href="https://t.me/AsadSupport"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/Shayri_Music_Lovers"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-<a href="https://t.me/Give_Me_Heart"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="https://t.me/Luluwtf"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/aerosfams"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
 ## CREDITS
