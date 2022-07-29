@@ -1,5 +1,5 @@
 # A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
+# Property Of Rocks Indonesia Largest Chatting Group
 # Rocks © @pornhubtz © Rocks
 # Owner LuluPratama + ACENG ROBOT 
 
