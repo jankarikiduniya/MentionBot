@@ -1,7 +1,7 @@
 # A Powerful Music And Management Bot
 # Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit Sharma + Abhimanyu Singh + Krishna Ki Diwani
+# Rocks © @pornhubtz © Rocks
+# Owner LuluPratama + ACENG ROBOT 
 
 
 import os, logging, asyncio
@@ -37,16 +37,16 @@ async def start(event):
             [
                 Button.url(
                     "☀︎︎️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☀︎︎",
-                    "https://t.me/Alexa_MentionBot?startgroup=true",
+                    "https://t.me/aerosfams",
                 ),
             ],
             [
-                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/Shayri_Music_Lovers"),
-                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/AsadSupport"),
+                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/aerosfams"),
+                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/Luluwtf"),
             ],
             [
-                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/HarshitSharma361"),
-                Button.url("☀︎︎ ᴋɪɴɢ ☀︎︎︎", "https://t.me/Jankar_Ki_Duniya"),
+                Button.url("☀︎︎ ʙʀᴏ ☀︎︎️️", "https://t.me/pornhubtz"),
+                Button.url
             ],
         ),
     )
@@ -54,14 +54,14 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-    helptext = "✪ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
+    helptext = "✪ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ACENG ROBOT\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/Give_Me_Heart"),
-                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"),
+                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/aerosfams"),
+       
             ]
         ),
     )
@@ -69,14 +69,14 @@ async def help(event):
 
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ACENG ROBOT\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/Give_Me_Heart"),
-                Button.url("ʏᴏᴜᴛᴜʙᴇ ☀︎︎", "https://www.youtube.com/c/JankariKiDuniya"),
+                Button.url("☀︎︎ ʜᴇᴀʀᴛ", "https://t.me/aerosfams"),
+ 
             ]
         ),
     )
@@ -215,11 +215,11 @@ async def cancel_spam(event):
         return await event.respond("__Stopped.__")
 
 
-print(">> ASAD ALEXA WORKING <<")
+print(">> ACENG ROBOT WORKING <<")
 client.run_until_disconnected()
 
 
 # A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit Sharma + Abhimanyu Singh + Krishna Ki Diwani
+# Property Of Rocks Indonesia Largest Chatting Group
+# Rocks © @pornhubtz © Rocks
+# Owner LuluPratama + ACENG ROBOT
